@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_configuration_seos",
+  "collectionName": "components_configuration_tags",
   "info": {
-    "displayName": "SEO"
+    "displayName": "tags"
   },
   "options": {},
   "attributes": {

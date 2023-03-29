@@ -13,16 +13,28 @@
   "pluginOptions": {},
   "attributes": {
     "printStoreEnabled": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "siteTitle": {
       "type": "string"
     },
-    "tags": {
-      "displayName": "SEO",
+    "introduction": {
+      "type": "string"
+    },
+    "bannerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "SEO": {
+      "displayName": "tags",
       "type": "component",
       "repeatable": true,
-      "component": "configuration.seo"
+      "component": "configuration.tags"
     }
   }
 }
