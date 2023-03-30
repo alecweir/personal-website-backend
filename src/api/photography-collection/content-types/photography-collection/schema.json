@@ -4,7 +4,8 @@
   "info": {
     "singularName": "photography-collection",
     "pluralName": "photography-collections",
-    "displayName": "photography-collection"
+    "displayName": "Photography Collections",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,11 +19,12 @@
       "type": "boolean"
     },
     "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "slug": {
       "type": "uid",

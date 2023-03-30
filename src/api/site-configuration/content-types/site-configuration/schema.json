@@ -30,7 +30,7 @@
         "images"
       ]
     },
-    "SEO": {
+    "tags": {
       "displayName": "tags",
       "type": "component",
       "repeatable": true,
